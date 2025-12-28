@@ -58,6 +58,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #087a67;
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
