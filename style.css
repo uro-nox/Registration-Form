@@ -31,15 +31,8 @@ label {
   margin: 12px 0 6px;
 }
 
-input,
-select,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #999;
-  font-size: 16px;
-  box-sizing: border-box;
+input[type="radio"] {
+  width: auto;
 }
 
 .gender {
