@@ -2,14 +2,21 @@ body {
   background-color: #019579;
 }
 body {
-text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #019579;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;      
 }
+
 .card {
   background: white;
-  width: 350px;
-  padding: 30px;
-  margin: 80px auto;
-  border-radius: 10px;
+  width: 90%;
+max-width: 400px;  
+padding: 20px;
+  border-radius: 12px;
 }
 .card {
 width: 400px;
