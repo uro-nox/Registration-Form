@@ -1,79 +1,75 @@
 body {
-  background-color: #019579;
-}
-body {
   margin: 0;
   min-height: 100vh;
   background-color: #019579;
 
   display: flex;
   justify-content: center;
-  align-items: center;      
+  align-items: center;
+  font-family: Arial, sans-serif;
 }
 
 .card {
-  background: white;
+  background-color: white;
   width: 90%;
-max-width: 400px;  
-padding: 20px;
+  max-width: 420px;
+  padding: 25px;
   border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  text-align: left;
 }
-.card {
-width: 400px;
-max-width: 90%;
-margin: 50px auto;
-padding: 20px;
-background-color: white;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-box-sizing: border-box;
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-input[type="text"],
-input[type="password"],
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 12px 0 6px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.gender {
+  display: flex;
+  gap: 15px;
+  margin-top: 6px;
+}
 input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    margin-top: 12px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
+  background-color: #0a8f79;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
-input[type="submit"] {
-    background-color: #0a8f79;
-    color: white;
-    border: none;
-    cursor: pointer;
+input[type="submit"]:hover {
+  background-color: #087a67;
 }
 
-input[type="submit"]:hover,
-input[type="submit"]:active {
-    background-color: #087a67;
-}
-p {
-    text-align: center;
-    margin: 8px 0;
-}
-
-a {
-    color: #0a8f79;
-    text-decoration: none;
-    font-weight: bold;
-}
 @media screen and (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
+  .card {
+    padding: 18px;
+  }
 
-    .card {
-        margin: 20px auto;
-        padding: 15px;
-    }
-
-    input[type="text"],
-    input[type="password"],
-    input[type="submit"] {
-        font-size: 14px;
-        padding: 10px;
-    }
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
 }
