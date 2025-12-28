@@ -73,3 +73,20 @@ input[type="submit"]:hover {
     font-size: 14px;
   }
 }
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.form-row label {
+  width: 130px;   /* label fixed width */
+  font-weight: bold;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  flex: 1;        /* input full bacha hua space lega */
+}
