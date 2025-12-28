@@ -11,3 +11,62 @@ text-align: center;
   margin: 80px auto;
   border-radius: 10px;
 }
+.card {
+width: 400px;
+max-width: 90%;
+margin: 50px auto;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+box-sizing: border-box;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0a8f79;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+    background-color: #087a67;
+}
+p {
+    text-align: center;
+    margin: 8px 0;
+}
+
+a {
+    color: #0a8f79;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
