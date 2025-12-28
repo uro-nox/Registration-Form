@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body align="center"
+background="F:\SOFTWARE FILES\aryabhatta\image-1.jpg">
+<h2><u><center>REGISTRATION FORM</center></u></h2>
+
+<!--Full Name-->
+<label><b>Student Name:</label></b>
+<input type="text" name="Full Name" 
+placeholder="Enter Full Name" required minlength="3" maxlenth="30"
+pattern="[A-Za-z]+"><br>
+
+<!--Email-->
+</br>
+<label><b>Email:</label></b>
+<input type="Email" name="Email"
+placeholder="Enter Email" required><br>
+
+<!--Mobile Number-->
+</br>
+<label><b>Mobile Number:</label></b>
+<input type="tel" name="Mobile"
+placeholder="Enter Mobile Number" required
+pattern="[0-9]{10}" maxlength="10" minlength="10"><br>
+
+<!--Gender-->
+</br>
+<label><b>Gender:</label></b>
+<input type="radio" name="Gender" value="Male" required>Male
+<input type="radio" name="Gender" value="Female" required>Female
+<input type="radio" name="Gender" value="Other" required>Other<br>
+
+<!--Dob-->
+</br>
+<label><b>Dob:</label></b>
+<input type="Date" name="Dob" required><br>
+
+<!--Course-->
+</br>
+<label><b>Course:</label></b>
+<select name="Course" required>
+<option>Select Course</option>
+<option>BCA</option>
+<option>MCA</option>
+<option>BBA</option>
+<option>BSC</option>
+</select><br><br>
+
+<!--ADDRESS-->
+</br> 	
+<label><b>Address:</label></b>
+<textarea name="Address" rows="4" cols="30"
+placeholder="Enter Full Adddress" required minlength="10"></textarea></br>
+
+<br> <!--Submit--><input type="Submit" value="Register">
+</body>
+</html>
