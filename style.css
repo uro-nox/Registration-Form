@@ -32,7 +32,12 @@ label {
 }
 
 input[type="radio"] {
-  width: auto;
+  width: auto%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  font-size: 16px;
 }
 
 .gender {
